@@ -1,5 +1,7 @@
 package Clases;
 
+import androidx.annotation.NonNull;
+
 public class ClientFirebase {
     private String id, nombre, destino, promocion;
 
@@ -37,5 +39,10 @@ public class ClientFirebase {
 
     public void setPromocion(String promocion) {
         this.promocion = promocion;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
     }
 }
