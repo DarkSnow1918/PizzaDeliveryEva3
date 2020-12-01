@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893582907288",
+    "firebase_url": "https://fir-pizza-ffa93.firebaseio.com",
+    "project_id": "fir-pizza-ffa93",
+    "storage_bucket": "fir-pizza-ffa93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893582907288:android:3b0a776acd4a5accd4fded",
+        "android_client_info": {
+          "package_name": "com.example.pizzadeliveryeva3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893582907288-bu9m3nl1pdagmnhqmjuf9les355m8ne2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApIUp2IOHTiogEiyhkKPRcfQ1WOct1Nb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893582907288-bu9m3nl1pdagmnhqmjuf9les355m8ne2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

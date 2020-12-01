@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28BA4D"
+    tools:context=".Menu_act">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="361dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/VvVideo"
+            android:layout_width="365dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="100dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/BtnPromo"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:background="#1E88E5"
+            android:onClick="promociones"
+            android:text="PROMOCIONES"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BtnGestion"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#FDD835"
+            android:onClick="clientes"
+            android:text="GESTIÓN PIZZAS"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="340dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:text="Agradecemos que prefieras trabajar con nosotros en pizza's"
+            android:textColor="#020000"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
